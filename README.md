@@ -39,9 +39,3 @@ python app.py
 | PATCH | `/api/tasks/<id>/status` | Update task status |
 | DELETE | `/api/tasks/<id>` | Delete a task |
 | GET | `/api/health` | Check API health |
-
-## Run
-
-The API runs at `http://127.0.0.1:5000`.
-
-The SQLite database is automatically created inside the `data` folder.
